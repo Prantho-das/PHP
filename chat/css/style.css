@@ -1,0 +1,24 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.card{
+    margin-bottom: 2rem;
+}
+.message{
+    height: 50vh;
+    width: 50%;
+    color:white;
+    background-color: black;
+    overflow-y: scroll;
+}
+.msgg{
+    min-height: 12vh;
+    max-width: 300px;
+    border-radius: 15px;
+    padding:1.5rem 2rem;
+    background-color: darkgray;
+    color:blueviolet
+    
+}

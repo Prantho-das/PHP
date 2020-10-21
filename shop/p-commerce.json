@@ -1,0 +1,96 @@
+[
+{"type":"header","version":"5.0.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"p-commerce"},
+{"type":"table","name":"brand","database":"p-commerce","data":
+[
+{"brandid":"1","brandname":"ACER","time":"2020-07-11 16:55:52"},
+{"brandid":"2","brandname":"SAMSUNG","time":"2020-07-11 16:56:02"},
+{"brandid":"3","brandname":"CANON","time":"2020-07-11 16:56:12"},
+{"brandid":"5","brandname":"IPHONE","time":"2020-07-11 17:10:59"},
+{"brandid":"6","brandname":"WALTON","time":"2020-07-16 12:26:40"}
+]
+}
+,{"type":"table","name":"cart","database":"p-commerce","data":
+[
+{"id":"28","productid":"17","customerid":"9","pname":"Lorem Ipsum is simply","price":"58","quantity":"1","img":"pra5f0cba418b7c9pic4.png","time":"2020-07-15 16:21:55"},
+{"id":"33","productid":"21","customerid":"8","pname":"pranthodasshoccho@gmail.com","price":"5888","quantity":"1","img":"pra5f0cc68eb9689preview-img.jpg","time":"2020-07-15 18:16:37"},
+{"id":"34","productid":"11","customerid":"8","pname":"Lorem Ipsum is simply","price":"833","quantity":"9","img":"pra5f0cb89922445feature-pic1.png","time":"2020-07-15 18:18:05"},
+{"id":"36","productid":"14","customerid":"8","pname":"Pranthokumardas786@gmail.com","price":"58","quantity":"1","img":"pra5f0cb9c4f04b1feature-pic3.jpg","time":"2020-07-15 18:23:53"}
+]
+}
+,{"type":"table","name":"category","database":"p-commerce","data":
+[
+{"id":"3","catname":"Mobile"},
+{"id":"6","catname":" Laptop"},
+{"id":"7","catname":"Accessories"},
+{"id":"8","catname":"Software"},
+{"id":"9","catname":" Sports & Fitness"},
+{"id":"10","catname":"Footwear"},
+{"id":"11","catname":" Jewellery"},
+{"id":"12","catname":"Clothing"},
+{"id":"13","catname":" Home Decor & Kitchen"},
+{"id":"14","catname":"Beauty & Healthcare"},
+{"id":"16","catname":"Toys, Kids & Babies"},
+{"id":"17","catname":"Walton"}
+]
+}
+,{"type":"table","name":"contact","database":"p-commerce","data":
+[
+{"id":"7","fn":"prantho","ln":"das","email":"Pranthokumardas786@gmail.com","msg":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised","mob":"1794188835","status":"0","time":"2020-07-16 13:06:22"}
+]
+}
+,{"type":"table","name":"customer","database":"p-commerce","data":
+[
+{"id":"11","name":"Prantho kumar das","address":"32,Kishoregonj","city":"kishoregonj","country":"BD","zip":"23221","phone":"2147483647","email":"Pranthokumardas786@gmail.com","password":"890678","time":"2020-07-16 02:29:22"}
+]
+}
+,{"type":"table","name":"footer","database":"p-commerce","data":
+[
+{"id":"1","copy":"© Copyright by prantho"}
+]
+}
+,{"type":"table","name":"order","database":"p-commerce","data":
+[
+{"id":"299","customerid":"11","productid":"21","pname":"pranthodasshoccho@gmail.com","quantity":"1","price":"5888","status":"1","time":"2020-07-16 19:03:40"}
+]
+}
+,{"type":"table","name":"products","database":"p-commerce","data":
+[
+{"id":"11","pdname":"Lorem Ipsum is simply","brandid":"6","catid":"3","prodetail":"<p>Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will<\/p>","img":"pra5f0cb89922445feature-pic1.png","price":"833","type":"1","time":"2020-07-14 01:40:09"},
+{"id":"12","pdname":"Pranthokumardas786@gmail.com","brandid":"2","catid":"6","prodetail":"Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will...","img":"pra5f0cb8ba0ff6ffeature-pic2.jpg","price":"6500","type":"2","time":"2020-07-14 01:40:42"},
+{"id":"13","pdname":"Lorem Ipsum is simply","brandid":"3","catid":"7","prodetail":"Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will...","img":"pra5f0cb8dcae643feature-pic4.png","price":"5888","type":"1","time":"2020-07-14 01:41:16"},
+{"id":"14","pdname":"Pranthokumardas786@gmail.com","brandid":"5","catid":"8","prodetail":"Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will...","img":"pra5f0cb9c4f04b1feature-pic3.jpg","price":"58","type":"1","time":"2020-07-14 01:45:08"},
+{"id":"15","pdname":"Lorem Ipsum is simply","brandid":"1","catid":"10","prodetail":"Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will...","img":"pra5f0cb9fc0ae0enew-pic1.jpg","price":"5888","type":"2","time":"2020-07-14 01:46:04"},
+{"id":"17","pdname":"Lorem Ipsum is simply","brandid":"5","catid":"13","prodetail":"Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will...","img":"pra5f0cba418b7c9pic4.png","price":"58","type":"2","time":"2020-07-14 01:47:13"},
+{"id":"19","pdname":"Lorem Ipsum is simply","brandid":"2","catid":"9","prodetail":"Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will...","img":"pra5f0cba7e8283bpreview-img5.jpg","price":"5888","type":"2","time":"2020-07-14 01:48:14"},
+{"id":"20","pdname":"Lorem Ipsum is simply","brandid":"2","catid":"11","prodetail":"<p><span>Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will<\/span><\/p>\r\n<p><span><span>Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will...<\/span><\/span><\/p>","img":"pra5f0cc633a9000new-pic3.jpg","price":"5888","type":"1","time":"2020-07-14 02:38:11"},
+{"id":"21","pdname":"pranthodasshoccho@gmail.com","brandid":"2","catid":"6","prodetail":"<p><span>Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will<span>Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will<\/span><\/span><\/p>","img":"pra5f0cc68eb9689preview-img.jpg","price":"5888","type":"1","time":"2020-07-14 02:39:42"},
+{"id":"22","pdname":"Lorem Ipsum is simply","brandid":"3","catid":"16","prodetail":"<p><span>Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will<\/span>Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will<\/p>","img":"pra5f0cc6bab73f4preview-img3.jpg","price":"8333938","type":"2","time":"2020-07-14 02:40:26"},
+{"id":"23","pdname":"Walton mobile","brandid":"2","catid":"3","prodetail":"<p><span>Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be<\/span><span>Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be<\/span><span>Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be<\/span><span>Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be<\/span><\/p>","img":"pra5f0ff2ebf0d00preview-img4.jpg","price":"5888","type":"1","time":"2020-07-16 12:25:47"}
+]
+}
+,{"type":"table","name":"slider","database":"p-commerce","data":
+[
+{"id":"5","title":"shoccho solutions","img":"pra5f0cc9883753f1.jpg","time":"2020-07-14 02:52:24"},
+{"id":"6","title":"prantho","img":"pra5f0cc9916e81a2.jpg","time":"2020-07-14 02:52:33"},
+{"id":"7","title":"prantho","img":"pra5f0cc99f5f60c3.jpg","time":"2020-07-14 02:52:47"},
+{"id":"8","title":"React is good tool","img":"pra5f0cc9ac6cff24.jpg","time":"2020-07-14 02:53:00"}
+]
+}
+,{"type":"table","name":"slogan","database":"p-commerce","data":
+[
+{"id":"1","sloga":"Be happy","des":"fkaffkjkhk","img":"asfa"}
+]
+}
+,{"type":"table","name":"social","database":"p-commerce","data":
+[
+{"id":"1","Facebook":"http:\/\/facebook.com","Twitter":"http:\/\/twitter.com","LinkedIn":"http:\/\/linkedIn.com","Google":"http:\/\/google.com","time":"2020-07-12 02:12:46"}
+]
+}
+,{"type":"table","name":"user","database":"p-commerce","data":
+[
+{"id":"1","uname":"prantho","email":"Pranthokumardas786@gmail.com","password":"9090","staus":"0","time":"2020-07-11 03:06:30"},
+{"id":"2","uname":"shoccho","email":"pranthodas@gamil.com","password":"8909","staus":"1","time":"2020-07-11 02:48:29"}
+]
+}
+]
